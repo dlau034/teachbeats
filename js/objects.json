@@ -8,7 +8,15 @@
     ,"rank"     : 4
     ,"reviews"  : "one review" 
     ,"image"    : "person1"
-    ,"imageurl" : "/images/person1url.jpg" 
+    ,"imageurl" : ["images/person1_1.jpg" 
+                  ,"images/person1_2.jpg" 
+                  ,"images/person1_3.png" 
+                  ,"images/person1_4.jpg" 
+                  ,"images/person1_5.png" 
+                  ,"images/person1_6.jpg" 
+                  ,"images/person1_7.png" 
+                  ,"images/person1_8.png"
+                  ] 
     ,"description"   : "By teaching how to play drums, I like to share this fun with you. In order to do that, I will make an ideal practice plan."
     ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
     },
@@ -21,8 +29,18 @@
     ,"rank"     : 5
     ,"reviews"  : "two reviews"  
     ,"image"    : "person2"
-    ,"imageurl" : "person2url.jpg"
+    ,"imageurl" : ["images/person1_2.jpg" 
+                  ,"images/person1_1.jpg" 
+                  ,"images/person1_3.png" 
+                  ,"images/person1_4.jpg" 
+                  ,"images/person1_5.png" 
+                  ,"images/person1_6.jpg" 
+                  ,"images/person1_7.png" 
+                  ,"images/person1_8.png"
+                  ] 
     ,"description"   : "I teach pretty much any genre: rock, country, blues, jazz. and classical an the upright bass."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
+
     },
     {
      "name"     : "Eddie W."
@@ -33,8 +51,18 @@
     ,"rank"     : 5
     ,"reviews"  : "four reviews"  
     ,"image"    : "person3"
-    ,"imageurl" : "person3url.jpg"
+    ,"imageurl" : ["images/person1_3.png" 
+                  ,"images/person1_2.jpg" 
+                  ,"images/person1_1.jpg" 
+                  ,"images/person1_4.jpg" 
+                  ,"images/person1_5.png" 
+                  ,"images/person1_6.jpg" 
+                  ,"images/person1_7.png" 
+                  ,"images/person1_8.png"
+                  ] 
     ,"description"   : "I am a rock singer/Guitarist/ Bass Player/ Songwriter. I am originally from Sao Paulo, Brazil. Moved to NYC in 1995 and that's where I live since then."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
+
     },
     {
      "name"     : "Dominic S."
@@ -45,8 +73,17 @@
     ,"rank"     : 5
     ,"reviews"  : "three reviews"  
     ,"image"    : "person4"
-    ,"imageurl" : "person4url.jpg"
+    ,"imageurl" : ["images/person1_4.jpg" 
+                  ,"images/person1_2.jpg" 
+                  ,"images/person1_3.png" 
+                  ,"images/person1_1.jpg" 
+                  ,"images/person1_5.png" 
+                  ,"images/person1_6.jpg" 
+                  ,"images/person1_7.png" 
+                  ,"images/person1_8.png"
+                  ] 
     ,"description"   : "Music is fun. My personality is laid back, but I would never say that I teach that way. There is a delicate balance between learning, fun, and concentration."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
     },
     {
      "name"     : "John L."
@@ -57,8 +94,17 @@
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
     ,"image"    : "person5"
-    ,"imageurl" : "person5url.jpg"
+    ,"imageurl" : ["images/person1_5.png" 
+                  ,"images/person1_2.jpg" 
+                  ,"images/person1_3.png" 
+                  ,"images/person1_4.jpg" 
+                  ,"images/person1_1.jpg" 
+                  ,"images/person1_6.jpg" 
+                  ,"images/person1_7.png" 
+                  ,"images/person1_8.png"
+                  ] 
     ,"description"   : "I believe I can give musicians and aspiring musicians a deep understanding of what is most important in many different styles of music."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
     },
     {
      "name"     : "Adam C."
@@ -69,8 +115,18 @@
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
     ,"image"    : "person6"
-    ,"imageurl" : "person6url.jpg"
+    ,"imageurl" : ["images/person1_6.jpg" 
+                  ,"images/person1_2.jpg" 
+                  ,"images/person1_3.png" 
+                  ,"images/person1_4.jpg" 
+                  ,"images/person1_5.png" 
+                  ,"images/person1_1.jpg" 
+                  ,"images/person1_7.png" 
+                  ,"images/person1_8.png"
+                  ] 
     ,"description"   : "I specialize in a diverse variety of styles on the acoustic and electric guitar, bass, and piano, and am particularly skilled at communicating and applying theoretical and musical knowledge in a simplified manner."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
+
     },
     {
      "name"     : "Greg D."
@@ -81,8 +137,18 @@
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
     ,"image"    : "person7"
-    ,"imageurl" : "person7url.jpg"
+    ,"imageurl" : ["images/person1_7.png" 
+                  ,"images/person1_2.jpg" 
+                  ,"images/person1_3.png" 
+                  ,"images/person1_4.jpg" 
+                  ,"images/person1_5.png" 
+                  ,"images/person1_6.jpg" 
+                  ,"images/person1_1.jpg" 
+                  ,"images/person1_8.png"
+                  ] 
     ,"description"   : "Greg is great with kids and adults; and his approach caters to the individual needs of each student."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
+
     },
     {
      "name"     : "Chris K."
@@ -93,8 +159,18 @@
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
     ,"image"    : "person8"
-    ,"imageurl" : "person8url.jpg"
+    ,"imageurl" : ["images/person1_8.png" 
+                  ,"images/person1_2.jpg" 
+                  ,"images/person1_3.png" 
+                  ,"images/person1_4.jpg" 
+                  ,"images/person1_5.png" 
+                  ,"images/person1_6.jpg" 
+                  ,"images/person1_7.png" 
+                  ,"images/person1_1.jpg"
+                  ] 
     ,"description"   : "While my instruction will certainly focus on the nuts 'n' bolts of music and honing all the requisite techniques to execute it, greater emphasis will be placed on discovering a student's artistic je ne sais quoi."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
+
     },
     {
      "name"     : "Daniel V."
@@ -105,7 +181,17 @@
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
     ,"image"    : "person9"
-    ,"imageurl" : "person9url.jpg"
+    ,"imageurl" : ["images/person1_5.png" 
+                  ,"images/person1_1.jpg" 
+                  ,"images/person1_3.png" 
+                  ,"images/person1_4.jpg" 
+                  ,"images/person1_1.jpg" 
+                  ,"images/person1_6.jpg" 
+                  ,"images/person1_7.png" 
+                  ,"images/person1_8.png"
+                  ] 
     ,"description"   : "I specialize in rock, blues, soul, and R&B. I can cover many other styles as well."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
+
     }]
 }

@@ -1,0 +1,120 @@
+{"artists": [
+    {
+     "name"     : "Heidi K."
+    ,"neighborhood" : "Midtown, 42nd St and 7th Ave, 34th St and 6th Ave"
+    ,"phone"    : "347 132 1312"
+    ,"genre"    : "rock, country"
+    ,"instrument" : "guitar, harmonica"
+    ,"rank"     : 4
+    ,"reviews"  : "one review" 
+    ,"image"    : "person1"
+    ,"imageurl" : ["/images/person1_1.jpg" 
+                  ,"/images/person1_2.jpg" 
+                  ,"/images/person1_3.png" 
+                  ,"/images/person1_4.jpg" 
+                  ,"/images/person1_5.png" 
+                  ,"/images/person1_6.jpg" 
+                  ,"/images/person1_7.png" 
+                  ,"/images/person1_8.png"
+                  \ 
+    "description"   : "Heidi Kole, currently an electrified absorber of life in NYC, is often described as a Renaissance woman Heidi is a singer/songwriter, actress, dancer, voiceover artist, stunt person for film/tv and author of The Subway Diaries - a first hand account of her experience as a busker in the NYC Subways after experiencing an accident and the resulting awakening that occurred while being thrust into the NYC Subways. Her stunt and acting credits include Disney, New Line, HBO, CBS, ABC, Warner Brothers and Tristar to name a few. Her voice over work can be heard on numerous National radio commercials and her songwriting credits to date include songs that hold both opening and closing credit spots in a number of films. Heidi, an eternal absorber of life, lives her life avidly soaking up humanity and creating her art from her day-to-day observations and adventures. 
+"
+    "video"     : "<iframe src="http://player.vimeo.com/video/23778141" width="500" height="281" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href="http://vimeo.com/23778141">New Cam Harmonica Guitar Jam</a> from <a href="http://vimeo.com/safeandwet">SafeandWet.com</a> on <a href="http://vimeo.com">Vimeo</a>.</p>"
+    },
+    {
+     "name"     : "Brian V."
+    ,"neighborhood" : "Lower Manhattan, Houston St and Broadway, Delancy St and Bowery"
+    ,"phone"    : "917 629 2130"
+    ,"genre"    : "dance"
+    ,"instrument" : "keyboard, synthesizer"
+    ,"rank"     : 5
+    ,"reviews"  : "two reviews"  
+    ,"image"    : "person2"
+    ,"imageurl" : "/images/person2.jpg"
+    "description"   : "I teach pretty much any genre: rock, country, blues, jazz. and classical an the upright bass."
+    },
+    {
+     "name"     : "Eddie W."
+    ,"neighborhood" : "Midtown, Times Square 42nd St and Broadway, Herald Square 34th St and Broadway"
+    ,"phone"    : "646 296 3120"
+    ,"genre"    : "classical"
+    ,"instrument" : "cello, violin"
+    ,"rank"     : 5
+    ,"reviews"  : "four reviews"  
+    ,"image"    : "person3"
+    ,"imageurl" : "/images/person3.jpg"
+    "description"   : "I am a rock singer/Guitarist/ Bass Player/ Songwriter. I am originally from Sao Paulo, Brazil. Moved to NYC in 1995 and that's where I live since then."
+    },
+    {
+     "name"     : "Dominic S."
+    ,"neighborhood" : "Harlem, 125th St and St Nicholas Ave, 135th St and Frederick Douglas Blvd"
+    ,"phone"    : "917 692 2310"
+    ,"genre"    : "dance, electronic, EDM, IDM, techno"
+    ,"instrument" : "drums, cymbals"
+    ,"rank"     : 5
+    ,"reviews"  : "three reviews"  
+    ,"image"    : "person4"
+    ,"imageurl" : "/images/person4.jpg"
+    "description"   : "Music is fun. My personality is laid back, but I would never say that I teach that way. There is a delicate balance between learning, fun, and concentration."
+    },
+    {
+     "name"     : "John L."
+    ,"neighborhood" : "Lower Manhattan"
+    ,"phone"    : ""
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    ,"image"    : "person5"
+    ,"imageurl" : "/images/person5.jpg"
+    "description"   : "I believe I can give musicians and aspiring musicians a deep understanding of what is most important in many different styles of music."
+    },
+    {
+     "name"     : "Adam C."
+    ,"neighborhood" : "East Williamsburg"
+    ,"phone"    : ""
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    ,"image"    : "person6"
+    ,"imageurl" : "/images/person6.jpg"
+    "description"   : "I specialize in a diverse variety of styles on the acoustic and electric guitar, bass, and piano, and am particularly skilled at communicating and applying theoretical and musical knowledge in a simplified manner."
+    },
+    {
+     "name"     : "Greg D."
+    ,"neighborhood" : "Lower East Side"
+    ,"phone"    : ""
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    ,"image"    : "person7"
+    ,"imageurl" : "/images/person7.jpg"
+    "description"   : "Greg is great with kids and adults; and his approach caters to the individual needs of each student."
+    },
+    {
+     "name"     : "Chris K."
+    ,"neighborhood" : "Prospect Heights"
+    ,"phone"    : ""
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    ,"image"    : "person8"
+    ,"imageurl" : "/images/person8.jpg"
+    "description"   : "While my instruction will certainly focus on the nuts 'n' bolts of music and honing all the requisite techniques to execute it, greater emphasis will be placed on discovering a student's artistic je ne sais quoi."
+    },
+    {
+     "name"     : "Daniel V."
+    ,"neighborhood" : "Gowanus Heights"
+    ,"phone"    : ""
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    ,"image"    : "person9"
+    ,"imageurl" : "/images/person9.jpg"
+    "description"   : "I specialize in rock, blues, soul, and R&B. I can cover many other styles as well."
+    }]
+}

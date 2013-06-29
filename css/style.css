@@ -9,6 +9,8 @@
 body {
 	font-family: 'ubuntu', serif;
 	background-image: url("../images/light_bg.png");
+	padding-bottom:  3em;
+	padding-top:  60px;
 }
 
 /*Menu*/
@@ -169,4 +171,57 @@ input.width_full {
 	box-sizing: border-box;
 	padding-top: 1.2em;
 	padding-bottom: 1.2em;
+}
+
+.carousel-caption {
+	bottom:15em;
+	width:60%;
+	background: none;
+}
+p.blurb {
+	font-size:150%;
+	line-height:120%;
+	font-family: ubuntu;	
+}
+
+#hero_img{
+	overflow: hidden;
+	max-height: 650px;
+	margin-bottom: -2.5em;
+	margin-top: -60px; /*boddy padding */
+}
+#hero_img img{
+	height: auto;
+	width: 100%;
+	/*background: url("../images/main_home.jpg");*/
+	/*background-repeat: no-repeat;*/
+	/*background-color: white;*/
+}
+.center button.btn-orange {
+	margin-top: 1em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;	
+	font-family: ubuntu;
+	font-weight: 700;
+}
+.featured-item p {
+	font-family: ubuntu;
+	font-size: 1em;
+	line-height: 1.3em;
+	font-weight: 100;
+	margin-top: 0.5em;
+}
+.featured-item h3 {
+	/*padding: 0.2em 0.5em 0em 0.5em;*/
+	text-align: left;
+}
+
+
+.clearfix:after{
+	content: '.';
+	display: block;
+	visibility: hidden;
+	clear: both;
+	line-height: 0;
+	height: 0;
 }
