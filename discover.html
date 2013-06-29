@@ -47,28 +47,51 @@
 <div class="container">
 <div class="row">
 
-    <div id="box" data-bind="foreach: {data: artists, afterRender: useMasonry}">
 
-       <div class="span4 featured-item">
-            <div class="populated-image">
-              <img src="images/img1.jpg"/>
-            </div>
-            <div class="content">
-            <h3><a href="#" data-bind="text:name">Lorem ipsum dolor sit</a></h3>
-            <span class="byline" data-bind="text:phone">Meatpacking District</span>
-            <span class="capacity" data-bind="text:genre">100-150</span>
-            <p class="featured-caption" data-bind="text:instrument"> 
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et.
-            </p>
-            </div>
-        </div>
+<div data-bind="with: chosenArtist">
+  this is the chosen artist data<br/>
+  this is the chosen artist data<br/>
+  this is the chosen artist data<br/>
 
+  this is the chosen artist data<br/>
+</div>
+
+    <div id="box" data-bind="template: { name: 'person-template', foreach: artists, as: 'artists', afterRender: useMasonry }">
     </div><!--box-->
 </div><!--row-->
 </div><!--container-->
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+
+
+<!-- templates -->
+
+
+<script type="text/html" id="person-template">
+
+ <div class="span4 featured-item">
+      <div class="populated-image">
+        <img src="images/img1.jpg"/>
+      </div>
+      <div class="content">
+      <h3><a href="#" data-bind="text:name, click: $root.goToArtist">Lorem ipsum dolor sit</a></h3>
+      <span class="byline" data-bind="text:phone">Meatpacking District</span>
+      <span class="capacity" data-bind="text:genre">100-150</span>
+      <p class="featured-caption" data-bind="text:instrument"> 
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et.
+      </p>
+      </div>
+  </div>
+
+  </script>
+
+
+
+
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> -->
+<script type="text/javascript" src="js/jquery.1.10.min.js"></script>
+
 <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
 <script type="text/javascript" src="masonry.js"></script>
 
