@@ -8,7 +8,9 @@
     ,"rank"     : 4
     ,"reviews"  : "one review" 
     ,"image"    : "person1"
-    ,"imageurl" : "person1url.jpg" 
+    ,"imageurl" : "/images/person1url.jpg" 
+    ,"description"   : "By teaching how to play drums, I like to share this fun with you. In order to do that, I will make an ideal practice plan."
+    ,"video"     : "<iframe src=\"http://player.vimeo.com/video/23778141\" width=\"500\" height=\"281\" frameborder=\"0\" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> <p><a href=\"http://vimeo.com/23778141\">New Cam Harmonica Guitar Jam</a> from <a href=\"http://vimeo.com/safeandwet\">SafeandWet.com</a> on <a href=\"http://vimeo.com\">Vimeo</a>.</p>"
     },
     {
      "name"     : "Brian V."
@@ -20,6 +22,7 @@
     ,"reviews"  : "two reviews"  
     ,"image"    : "person2"
     ,"imageurl" : "person2url.jpg"
+    ,"description"   : "I teach pretty much any genre: rock, country, blues, jazz. and classical an the upright bass."
     },
     {
      "name"     : "Eddie W."
@@ -31,6 +34,7 @@
     ,"reviews"  : "four reviews"  
     ,"image"    : "person3"
     ,"imageurl" : "person3url.jpg"
+    ,"description"   : "I am a rock singer/Guitarist/ Bass Player/ Songwriter. I am originally from Sao Paulo, Brazil. Moved to NYC in 1995 and that's where I live since then."
     },
     {
      "name"     : "Dominic S."
@@ -42,6 +46,7 @@
     ,"reviews"  : "three reviews"  
     ,"image"    : "person4"
     ,"imageurl" : "person4url.jpg"
+    ,"description"   : "Music is fun. My personality is laid back, but I would never say that I teach that way. There is a delicate balance between learning, fun, and concentration."
     },
     {
      "name"     : "John L."
@@ -53,6 +58,7 @@
     ,"reviews"  : "this is his review"  
     ,"image"    : "person5"
     ,"imageurl" : "person5url.jpg"
+    ,"description"   : "I believe I can give musicians and aspiring musicians a deep understanding of what is most important in many different styles of music."
     },
     {
      "name"     : "Adam C."
@@ -64,6 +70,7 @@
     ,"reviews"  : "this is his review"  
     ,"image"    : "person6"
     ,"imageurl" : "person6url.jpg"
+    ,"description"   : "I specialize in a diverse variety of styles on the acoustic and electric guitar, bass, and piano, and am particularly skilled at communicating and applying theoretical and musical knowledge in a simplified manner."
     },
     {
      "name"     : "Greg D."
@@ -75,6 +82,7 @@
     ,"reviews"  : "this is his review"  
     ,"image"    : "person7"
     ,"imageurl" : "person7url.jpg"
+    ,"description"   : "Greg is great with kids and adults; and his approach caters to the individual needs of each student."
     },
     {
      "name"     : "Chris K."
@@ -86,6 +94,7 @@
     ,"reviews"  : "this is his review"  
     ,"image"    : "person8"
     ,"imageurl" : "person8url.jpg"
+    ,"description"   : "While my instruction will certainly focus on the nuts 'n' bolts of music and honing all the requisite techniques to execute it, greater emphasis will be placed on discovering a student's artistic je ne sais quoi."
     },
     {
      "name"     : "Daniel V."
@@ -97,5 +106,6 @@
     ,"reviews"  : "this is his review"  
     ,"image"    : "person9"
     ,"imageurl" : "person9url.jpg"
+    ,"description"   : "I specialize in rock, blues, soul, and R&B. I can cover many other styles as well."
     }]
 }

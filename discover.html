@@ -45,13 +45,11 @@
     </div>
 
 <div class="container">
-<div class="row">
 
-    <div id="box" data-bind="template: { name: 'person-template', foreach: artists, as: 'artists', afterRender: useMasonry }"></div><!--box-->
+  <div class="row" data-bind="template: { name: 'person-template', foreach: artists, as: 'artists', afterRender: useMasonry }"></div>
 
-    <div data-bind="with: chosenArtist"></div>
-    
-</div><!--row-->
+  <div data-bind="with: chosenArtist"></div>
+
 </div><!--container-->
 
 
@@ -70,7 +68,7 @@
       <h3><a href="#" data-bind="text:name,click:$root.goToArtist">Sally & Kelly Stevens</a></h3>
       <div class="byline"><span class="labels">Teaches:</span><span data-bind="text:instrument">Guitar, Violin, Vocal, Jazz</span></div>
       <div class="capacity"><span class="labels">Location:</span><span data-bind="text:neighborhood">14th Union Square, 42nd St Time Square Station, Columbus Circle</span></div>
-      <p class="featured-caption" data-bind="text:phone "> 
+      <p class="featured-caption" data-bind="text:description"> 
         We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the students goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary...
       </p>
     </div>
@@ -78,7 +76,7 @@
 
 </script>
 
-
+<!-- /templates -->
 
 
 <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> -->
@@ -86,6 +84,8 @@
 
 <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
 <script type="text/javascript" src="masonry.js"></script>
+
+<script type="text/javascript" src="js/sammy.js"></script>
 
 <script type="text/javascript" src="js/knockout.v2.2.1.js"></script>
 
