@@ -136,3 +136,7 @@ h1.center {
 	font-family: bangers;
 	letter-spacing: 3px;
 }
+.content .labels {
+	font-weight: 700;
+	margin-right: 5px;
+}

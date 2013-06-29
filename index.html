@@ -60,50 +60,27 @@
 <div class="container overlap">
 <div class="row">
 
-  <div class="span4 featured-item">    
-     <div class="populated-image">
-        <img src="images/img2.jpg"/>
-    </div>
-    <div class="content">
-        <h3><a href="venues2.html">Sally & Kelly Stevens</a></h3>
-        <div class="byline"><span>Teaches:</span>Guitar, Violin, Vocal, Jazz</div>
-        <div class="capacity"><span>Location:</span>14th Union Square, 42nd St Time Square Station, Columbus Circle </div>
-        <p class="featured-caption">
-            We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the student's goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary...
-        </p>
-    </div>
-    </div>
+    <div id="box" data-bind="foreach: {data: artists, afterRender: useMasonry}">
 
-  <div class="span4 featured-item">    
-     <div class="populated-image">
-        <img src="images/img2.jpg"/>
-    </div>
-    <div class="content">
-        <h3><a href="venues2.html">Sally & Kelly Stevens</a></h3>
-        <div class="byline"><span>Teaches:</span>Guitar, Violin, Vocal, Jazz</div>
-        <div class="capacity"><span>Location:</span>14th Union Square, 42nd St Time Square Station, Columbus Circle </div>
-        <p class="featured-caption">
-            We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the student's goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary...
-        </p>
-    </div>
-    </div>
+       <div class="span4 featured-item">
+            <div class="populated-image">
+              <img src="images/img2.jpg"/>
+            </div>
+            <div class="content">
+            <h3><a href="#" data-bind="text:name">Sally & Kelly Stevens</a></h3>
+            <div class="byline"><span class="labels">Teaches:</span><span data-bind="text:phone">Guitar, Violin, Vocal, Jazz</span></div>
+            <div class="capacity"><span class="labels">Location:</span><span data-bind="text:genre">14th Union Square, 42nd St Time Square Station, Columbus Circle</span></div>
+            <p class="featured-caption" data-bind="text:instrument"> 
+                We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the student's goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary...
+            </p>
+            </div>
+        </div>
 
-  <div class="span4 featured-item">    
-     <div class="populated-image">
-        <img src="images/img2.jpg"/>
-    </div>
-    <div class="content">
-        <h3><a href="venues2.html">Sally & Kelly Stevens</a></h3>
-        <div class="byline"><span>Teaches:</span>Guitar, Violin, Vocal, Jazz</div>
-        <div class="capacity"><span>Location:</span>14th Union Square, 42nd St Time Square Station, Columbus Circle </div>
-        <p class="featured-caption">
-            We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the student's goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary...
-        </p>
-    </div>
-    </div>
+    </div><!--box-->
+
 
 </div><!--row-->
-</div>
+</div>  
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
 <script>
