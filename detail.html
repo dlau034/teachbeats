@@ -4,12 +4,14 @@
   <meta charset = "utf-8">
   <meta name="description" content="We connect meetups with venues.">
   <link href="css/bootstrap.css" rel="stylesheet">
-  <!-- <link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/detail.css" rel="stylesheet">
   <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700' rel='stylesheet' type='text/css'>
-  <title>Browse Venue</title>
+
+  <title>Teacher Details</title>
+
 </head>
 
 <body>  
@@ -44,27 +46,115 @@
     </div>
 
 <!-- Image Top Unit -->
-
-<div class="detail_img">
-	<img src="images/img9.jpg"/>
+<div class="top_unit">
+  <div class="top_media">
+<iframe width="560" height="310" src="//www.youtube.com/embed/S5CJQ3L8Yz8" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <div class="top_media_right">
+    <img class="thumbnailimg" src="images/img2.jpg" alt="">
+    <img class="thumbnailimg" src="images/img2.jpg" alt="">
+    <img class="thumbnailimg" src="images/img2.jpg" alt="">
+    <img class="thumbnailimg" src="images/img2.jpg" alt="">
+    <img class="thumbnailimg" src="images/img2.jpg" alt="">
+    <img class="thumbnailimg" src="images/img2.jpg" alt="">
+    <img class="thumbnailimg" src="images/img2.jpg" alt="">
+    <img class="thumbnailimg" src="images/img2.jpg" alt="">
+  </div>
+  <div class="bottom_bar"></div>
 </div>
-
 <!-- Text Top Unit -->
 
-<div class="container">
-	<div class="detail_text">
-		<h2>Lorem ipsum dolor sit amet, consectetur</h2>
-		<h3>Meatpacking District</h3>
-		<h4>100 - 150 People</h4>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, id earum libero nisi autem corrupti porro mollitia enim blanditiis. Voluptate, soluta, doloribus consequuntur quidem at minus libero neque voluptas voluptates nisi nostrum voluptatem est eius! Non, blanditiis, quisquam, esse necessitatibus culpa sit animi nisi a exercitationem quae reiciendis earum voluptate cupiditate cumque recusandae dolor magni fugiat quidem dolorum sunt. Enim.</p>
-		<button class="btn btn-primary btn-huge btn-orange">Ask for this Venue</button>	
-	</div>
+<div class="container bg_white">
+  <div class="row">
+  	<div class="detail_text span6">
+  		<h2>Sally & Kelly Stevens</h2>
+  		<h3>Guitar, Violin, Vocal, Jazz</h3>
+  		<h4>14th Union Square, 42nd St Time Square Station, Columbus Circle</h4>
+  		<p>We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the students goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the students goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary We teach in a simple, straight forward and laid back manner.</p>
+  		<!-- <button class="btn btn-primary btn-huge btn-orange">Donate</button>	 -->
+
+      <a href="#myModal" role="button" class="btn btn-primary btn-huge btn-orange" data-toggle="modal">Donate</a>
+  	</div>
+    <div class="span6">
+      <div class="session">
+        <h4>Learn Jazz Guitar - Learn Some New Rhythms</h4>   
+        <strong>When:&nbsp</strong>Wednesday Jul 4th - 10:00 PM</br>
+        <strong>Location:&nbsp</strong> Time Square 42nd Station</br>
+        11 attending
+        <button class="btn btn-primary btn-huge btn-orange btn-rsvp">RVSP</button> 
+      </div>
+        <div class="session">
+        <h4>Jazz & Vocal Practice Session</h4>   
+        <strong>When:&nbsp</strong>Tuesday Jul 2th - 2:00 PM</br>
+        <strong>Location:&nbsp</strong> 14th St Union Square Park - Westside</br>
+        9 attending
+        <button class="btn btn-primary btn-huge btn-orange btn-rsvp">RVSP</button> 
+      </div>
+      <div class="session">
+        <h4>Late Night Jazz Jam - Bass Guitar </h4>   
+        <strong>When:&nbsp</strong>Sunday Jul 17th - 11:00 PM</br>
+        <strong>Location:&nbsp</strong> 49th St Station - NQR Train</br>
+        5 attending
+        <button class="btn btn-primary btn-huge btn-orange btn-rsvp">RVSP</button> 
+
+      </div>
+    </div>   
+  </div>
 </div>
 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Donate</h3>
+  </div>
+  <div class="modal-body">
+    <p>Please Donate to our Musician / Music Teachers</p>
+    <select class="width_full" id="donate">
+      <option value="$2">$2</option>
+      <option value="$3">$3</option>
+      <option value="$4">$4</option>
+      <option value="$5">$5</option>
+      <option value="$6">$6</option>
+      <option value="$7">$7</option>
+      <option value="$8">$8</option>
+      <option value="$9">$9</option>
+      <option value="$10">$10</option>
+      <option value="$15">$15</option>
+      <option value="$20">$20</option>
+      <option value="$25">$25</option>
+      <option value="$30">$30</option>
+      <option value="$35">$35</option>
+      <option value="$40">$40</option>
+      <option value="$45">$45</option>
+      <option value="$50">$50</option>
+    </select> 
+    <input class="width_full" type="text" placeholder="Enter Amount">
+    <button class="btn btn-orange btn-primary btn-huge width_full">Donate with Paypal</button>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary btn-orange" data-dismiss="modal">Done!</button>
+  </div>
+</div>
+ 
+
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
 <script type="text/javascript" src="js/main.js"></script>
+<!-- <script type="text/javascript" src="masonry.js"></script> -->
 
 
+<script src="js/fluidvids.js"></script>
+<!-- <script src="/js/bootstrap.min.js"></script> -->
+
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script>
+  $(".btn-rsvp").click(function(){
+    $(this).addClass("red")
+  });
+</script>
 </body>
 </html>
 

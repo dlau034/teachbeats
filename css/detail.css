@@ -1,3 +1,6 @@
+body {
+	background: none;
+}
 .detail_img {
 	height: 420px;
 	overflow: hidden;	 
@@ -25,11 +28,70 @@
 	}
 }
 .detail_text {
-	/*background-color: white;*/
-	padding: 1em 2em 2em 2em;
-	/*margin-top: -2em;*/
-	z-index: 100;
+	margin-top: 1em;
+	clear: both;
 }
 .detail_text h2{
 	text-shadow: 0px 1px 0px white;
+}
+.bg_white {
+	/*background-color: white;*/
+	/*box-shadow: 0em 0em 2em rgba(0,0,0,0.5);*/
+}
+.top_media {	
+	width: 47.5%;
+	float: left;
+}
+.top_media_right {	
+	width: 52.5%;
+	float: left;
+}
+.top_media_right img {
+	width: 25%;
+	float: left;
+}
+.session {
+	background-color: #f1f1f1;
+	padding:1em;
+	margin-bottom: 1.5em;
+	padding-bottom: 3.2em;
+
+}
+.session:nth-of-type(1) {
+	margin-top: 2em;
+}
+.session h4 {
+	margin: 0;
+}
+.session .btn {
+	float: right!important;
+	/*padding: !important;	*/
+}
+@media (min-width: 980px) {
+	.top_unit {
+		margin-top: 40px;
+	}
+}
+@media (max-width: 979px) {
+	.top_unit {
+		margin-top: -20px;
+	}
+
+}
+@media (max-width: 768px) {
+	.top_media_right {
+		width: 100%;
+	}
+	.top_media {
+		width: 100%;
+	}
+	.top_unit {
+		margin-top: 0px;
+	}	
+}
+.btn-rsvp:hover, .btn-rsvp:active, .btn-rsvp:focus {
+	background-color: red;
+}
+.red {
+	background-color: red;
 }
