@@ -1,7 +1,10 @@
  function AppViewModel() {
     var self = this;
- 
+    
+    self.fixedArtists = [];
     self.artists = ko.observableArray([]);
+    self.chosenArtist = ko.observable();
+    //self.currentArtistData = ko.observable();
     // self.artists.subscribe(function(element){
     //      $('#box').masonry({            
     //         itemSelector : '.featured-item'
@@ -14,8 +17,12 @@
         $.getJSON('js/objects.json',function(data){
           //console.log(data);
           $.each(data.artists,function(i,artist){
-            self.artists.push(artist);
+            self.fixedArtists.push(artist);
           });
+
+          self.artists(self.fixedArtists);
+            //console.log(self.fixedArtists);
+            
           //     $('ul').append('<li>'+emp.firstName+' '+emp.lastName+'</li>');
           // });
           }).error(function(){
@@ -25,13 +32,19 @@
 
     self.getArtists();
 
-    self.useMasonry = function(element){
+    self.useMasonry = function(elm,obj){
+      elm = $(elm[1]);
+
+      elm.parent().masonry({            
+            itemSelector : '.featured-item'
+        });
+    }
 
 
-      //if ($('#box').children().length === ko.toJS(this.myItems).length) {
-        // Only now execute handler
-        //console.log("SAD");
-      //}
+    self.goToArtist = function(artist){
+      self.chosenArtist(artist);
+      self.artists(null);
+      //self.currentArtistData()
     }
     // self.addPerson = function() {
     //     self.people.push({ name: "New at " + new Date() });

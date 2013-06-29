@@ -47,28 +47,43 @@
 <div class="container">
 <div class="row">
 
-    <div id="box" data-bind="foreach: {data: artists, afterRender: useMasonry}">
+    <div id="box" data-bind="template: { name: 'person-template', foreach: artists, as: 'artists', afterRender: useMasonry }"></div><!--box-->
 
-       <div class="span4 featured-item">
-            <div class="populated-image">
-              <img src="images/img2.jpg"/>
-            </div>
-            <div class="content">
-            <h3><a href="#" data-bind="text:name">Sally & Kelly Stevens</a></h3>
-            <div class="byline"><span class="labels">Teaches:</span><span data-bind="text:phone">Guitar, Violin, Vocal, Jazz</span></div>
-            <div class="capacity"><span class="labels">Location:</span><span data-bind="text:genre">14th Union Square, 42nd St Time Square Station, Columbus Circle</span></div>
-            <p class="featured-caption" data-bind="text:instrument"> 
-                We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the student's goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary...
-            </p>
-            </div>
-        </div>
-
-    </div><!--box-->
+    <div data-bind="with: chosenArtist"></div>
     
 </div><!--row-->
 </div><!--container-->
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+
+
+<!-- templates -->
+
+
+<script type="text/html" id="person-template">
+
+  <div class="span4 featured-item">
+    <div class="populated-image">
+      <img src="images/img2.jpg"/>
+    </div>
+    <div class="content">
+      <h3><a href="#" data-bind="text:name,click:$root.goToArtist">Sally & Kelly Stevens</a></h3>
+      <div class="byline"><span class="labels">Teaches:</span><span data-bind="text:instrument">Guitar, Violin, Vocal, Jazz</span></div>
+      <div class="capacity"><span class="labels">Location:</span><span data-bind="text:neighborhood">14th Union Square, 42nd St Time Square Station, Columbus Circle</span></div>
+      <p class="featured-caption" data-bind="text:phone "> 
+        We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the students goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary...
+      </p>
+    </div>
+  </div> <!-- /featured-item -->
+
+</script>
+
+
+
+
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> -->
+<script type="text/javascript" src="js/jquery.1.10.min.js"></script>
+
 <script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
 <script type="text/javascript" src="masonry.js"></script>
 
