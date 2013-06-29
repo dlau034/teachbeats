@@ -1,13 +1,13 @@
 {"artists": [
     {
-     "name"     : "Yuichi H."
+     "name"     : "Heidi K."
     ,"neighborhood" : "Midtown, 42nd St and 7th Ave, 34th St and 6th Ave"
     ,"phone"    : "347 132 1312"
     ,"genre"    : "rock, country"
     ,"instrument" : "guitar, harmonica"
     ,"rank"     : 4
     ,"reviews"  : "one review" 
-    ,"image"    : "images/person0.jpg"
+    ,"image"    : "images/person1_4.jpg"
     ,"imageurl" : ["images/person1_1.jpg" 
                   ,"images/person1_2.jpg" 
                   ,"images/person1_3.png" 

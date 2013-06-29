@@ -48,7 +48,7 @@
             artist.id = 1822 + i;
             self.fixedArtists.push(artist);
             
-            if(i<4) self.firstArtists.push(artist);
+            if(i<3) self.firstArtists.push(artist);
           });
 
           self.artists(self.fixedArtists);
