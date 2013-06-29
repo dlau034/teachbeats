@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset = "utf-8">
+  <meta name="description" content="We connect meetups with venues.">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <!-- <link href="css/bootstrap-responsive.css" rel="stylesheet"> -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/detail.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700' rel='stylesheet' type='text/css'>
+  <title>Browse Venue</title>
+
+</head>
+<body>  
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+  <div class="navbar-inner">
+        <div class="container">
+              <a href="/" id="brand_logo" class="brand">Espace.co</a>
+<!--             <ul class="nav pull-right">
+
+              <li class="dropdown">
+             <a href="#" class="dropdown-toggle">Login</a>
+             <ul id="Sign_in" class="dropdown-menu">
+              <form>
+                
+                <input placeholder="Email" type="text" name="username"/>
+                
+                <input placeholder="Password" type="text" name="Password"/>
+                <button class="btn-primary pull-right btn-orange">Log in &raquo;</button>
+                <br />
+                <a href="#">Forgot password?</a>
+              </form>
+               </ul>
+           </li>
+
+              <li class="right">
+                <a href="signup.html">Sign Up</a>
+              </li> -->               
+            <!-- </ul> -->
+      </div>
+     </div>
+    </div>
+
+
+<!-- ko if: homeData -->
+
+  <div id="hero_img"><img src="images/main_home.jpg"/></div>
+
+   <div class="container">
+
+        <div class="carousel-caption center">
+          <h1 class="center text-shadow white">Learn Music from <br>Anyone, Anywhere</h1>
+          <p class="blurb text-shadow">Bringing together learners with limited resources and street performers, buskers.</p>
+            <button onclick=location.href='SignUp.html' class="btn-primary btn-orange btn-huge">I Want to Learn !</button>
+            <button onclick=location.href='SignUp.html' class="btn-primary btn-orange btn-huge">I Want to Teach !</button>
+        </div>
+        
+        <div class="row" data-bind="template: { name: 'person-template', foreach: firstArtists, as: 'firstArtists', afterRender: useMasonry }"></div>
+
+     </div>
+
+<!-- /ko -->
+
+<!-- ko if: discoverData -->
+
+<div class="container">
+
+  <div class="row" data-bind="template: { name: 'person-template', foreach: artists, as: 'artist', afterRender: useMasonry }"></div>
+
+</div><!--container-->
+
+<!-- /ko -->
+
+
+<!-- ko if: detailData -->
+
+<!-- ko with:chosenArtist -->
+
+ <!-- Image Top Unit -->
+<div class="top_unit clearfix">
+  <div class="top_media">
+      <div class="media-wrapper" data-bind="html: video">
+        <iframe width="560" height="310" src="//www.youtube.com/embed/S5CJQ3L8Yz8" frameborder="0" allowfullscreen></iframe>
+      </div>
+  </div>
+  <div class="top_media_right clearfix" >
+    <div class="media-wrapper">
+      <div class="thumbs" data-bind="foreach: {data: $data.imageurl}">
+        <div class="thumb">
+          <img class="thumbnailimg" src="images/img2.jpg" data-bind="attr: {src:$data}" alt="">
+        </div>
+      </div>
+    </div>
+    <!-- <span data-bind="text: $index">text</span> -->
+  </div>
+  <div class="bottom_bar"></div>
+</div>
+<!-- Text Top Unit -->
+
+<div class="container bg_white">
+  <div class="row">
+    <div class="detail_text span6">
+      <h2 data-bind="text: name">Sally & Kelly Stevens</h2>
+      <h3 data-bind="text: instrument">Guitar, Violin, Vocal, Jazz</h3>
+      <h4 data-bind="text: neighborhood">14th Union Square, 42nd St Time Square Station, Columbus Circle</h4>
+      <p data-bind="text: description">We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the students goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the students goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary We teach in a simple, straight forward and laid back manner.</p>
+      <!-- <button class="btn btn-primary btn-huge btn-orange">Donate</button>   -->
+
+      <a href="#myModal" role="button" class="btn btn-primary btn-huge btn-orange" data-toggle="modal">Donate</a>
+
+      <br/><br/>
+      <div id="disqus_thread"></div>
+
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </div>
+    <div class="span6">
+      <div class="session">
+        <h4>Learn Jazz Guitar - Learn Some New Rhythms</h4>   
+        <strong>When:&nbsp</strong>Wednesday Jul 4th - 10:00 PM</br>
+        <strong>Location:&nbsp</strong> Time Square 42nd Station</br>
+        11 attending
+        <button class="btn btn-primary btn-huge btn-orange btn-rsvp">RVSP</button> 
+      </div>
+        <div class="session">
+        <h4>Jazz & Vocal Practice Session</h4>   
+        <strong>When:&nbsp</strong>Tuesday Jul 2th - 2:00 PM</br>
+        <strong>Location:&nbsp</strong> 14th St Union Square Park - Westside</br>
+        9 attending
+        <button class="btn btn-primary btn-huge btn-orange btn-rsvp">RVSP</button> 
+      </div>
+      <div class="session">
+        <h4>Late Night Jazz Jam - Bass Guitar </h4>   
+        <strong>When:&nbsp</strong>Sunday Jul 17th - 11:00 PM</br>
+        <strong>Location:&nbsp</strong> 49th St Station - NQR Train</br>
+        5 attending
+        <button class="btn btn-primary btn-huge btn-orange btn-rsvp">RVSP</button> 
+
+      </div>
+    </div>   
+  </div>
+</div>
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Donate</h3>
+  </div>
+  <div class="modal-body">
+    <p>Please Donate to our Musician / Music Teachers</p>
+    <select class="width_full" id="donate">
+      <option value="$2">$2</option>
+      <option value="$3">$3</option>
+      <option value="$4">$4</option>
+      <option value="$5">$5</option>
+      <option value="$6">$6</option>
+      <option value="$7">$7</option>
+      <option value="$8">$8</option>
+      <option value="$9">$9</option>
+      <option value="$10">$10</option>
+      <option value="$15">$15</option>
+      <option value="$20">$20</option>
+      <option value="$25">$25</option>
+      <option value="$30">$30</option>
+      <option value="$35">$35</option>
+      <option value="$40">$40</option>
+      <option value="$45">$45</option>
+      <option value="$50">$50</option>
+    </select> 
+    <input class="width_full" type="text" placeholder="Enter Amount">
+    <button class="btn btn-orange btn-primary btn-huge width_full">Donate with Paypal</button>
+
+    
+
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary btn-orange" data-dismiss="modal">Done!</button>
+  </div>
+</div>
+
+<!-- /ko -->
+
+<!-- /ko -->
+
+<!-- templates -->
+
+<script type="text/html" id="person-template">
+
+  <div class="span4 featured-item">
+    <div class="populated-image">
+      <img src="images/img2.jpg" data-bind="attr: {src: $data.image}"/>
+    </div>
+    <div class="content">
+      <h3><a href="#" data-bind="text:name,click:$root.goToArtist">Sally & Kelly Stevens</a></h3>
+      <div class="byline"><span class="labels">Teaches:</span><span data-bind="text:instrument">Guitar, Violin, Vocal, Jazz</span></div>
+      <div class="capacity"><span class="labels">Location:</span><span data-bind="text:neighborhood">14th Union Square, 42nd St Time Square Station, Columbus Circle</span></div>
+      <p class="featured-caption" data-bind="text:description"> 
+        We teach in a simple, straight forward and laid back manner. Our first priority is to learn what the students goals and aspirations are. What does the student hope to gain from the experience. One of the first instructions will be how to tune and care for the instrument if necessary...
+      </p>
+    </div>
+  </div> <!-- /featured-item -->
+
+</script>
+
+<!-- /templates -->
+
+
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script> -->
+<script type="text/javascript" src="js/jquery.1.10.min.js"></script>
+
+<script type="text/javascript" src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="masonry.js"></script>
+
+<script type="text/javascript" src="js/sammy.js"></script>
+
+<script type="text/javascript" src="js/knockout.v2.2.1.js"></script>
+
+<script type="text/javascript" src="js/main.js"></script>
+<script>
+// $(document).ready(function(){
+// $('.dropdown-toggle').dropdown();
+// $('.dropdown-menu').click(function(event) {
+//   event.stopPropagation();
+//   });
+
+</script>
+</body>
+</html>
+
