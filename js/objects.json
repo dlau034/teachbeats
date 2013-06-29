@@ -1,83 +1,101 @@
 {"artists": [
     {
-     "name"     : "Johnny Bravo"
-    ,"phone"    : "348 132 1312"
-    ,"address"  : ""
-    ,"genre"    : "rock"
-    ,"instrument" : "guitar"
+     "name"     : "Yuichi H."
+    ,"neighborhood" : "Midtown, 42nd St and 7th Ave, 34th St and 6th Ave"
+    ,"phone"    : "347 132 1312"
+    ,"genre"    : "rock, country"
+    ,"instrument" : "guitar, harmonica"
     ,"rank"     : 4
-    ,"reviews"  : "one review"  
+    ,"reviews"  : "one review" 
+    ,"image"    : "person1"
+    ,"imageurl" : "person1url.jpg" 
     },
     {
-     "name"     : "Fred Flinstone"
+     "name"     : "Brian V."
+    ,"neighborhood" : "Lower Manhattan, Houston St and Broadway, Delancy St and Bowery"
+    ,"phone"    : "917 629 2130"
+    ,"genre"    : "dance"
+    ,"instrument" : "keyboard, synthesizer"
+    ,"rank"     : 5
+    ,"reviews"  : "two reviews"  
+    ,"image"    : "person2"
+    ,"imageurl" : "person2url.jpg"
+    },
+    {
+     "name"     : "Eddie W."
+    ,"neighborhood" : "Midtown, Times Square 42nd St and Broadway, Herald Square 34th St and Broadway"
+    ,"phone"    : "646 296 3120"
+    ,"genre"    : "classical"
+    ,"instrument" : "cello, violin"
+    ,"rank"     : 5
+    ,"reviews"  : "four reviews"  
+    ,"image"    : "person3"
+    ,"imageurl" : "person3url.jpg"
+    },
+    {
+     "name"     : "Dominic S."
+    ,"neighborhood" : "Harlem, 125th St and St Nicholas Ave, 135th St and Frederick Douglas Blvd"
+    ,"phone"    : "917 692 2310"
+    ,"genre"    : "dance, electronic, EDM, IDM, techno"
+    ,"instrument" : "drums, cymbals"
+    ,"rank"     : 5
+    ,"reviews"  : "three reviews"  
+    ,"image"    : "person4"
+    ,"imageurl" : "person4url.jpg"
+    },
+    {
+     "name"     : "John L."
+    ,"neighborhood" : "Lower Manhattan"
     ,"phone"    : ""
-    ,"address"  : "34 th street"
     ,"genre"    : "dance"
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
+    ,"image"    : "person5"
+    ,"imageurl" : "person5url.jpg"
     },
     {
-     "name"     : "Fred Flinstone"
+     "name"     : "Adam C."
+    ,"neighborhood" : "East Williamsburg"
     ,"phone"    : ""
-    ,"address"  : "34 th street"
     ,"genre"    : "dance"
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
+    ,"image"    : "person6"
+    ,"imageurl" : "person6url.jpg"
     },
     {
-     "name"     : "Fred Flinstone"
+     "name"     : "Greg D."
+    ,"neighborhood" : "Lower East Side"
     ,"phone"    : ""
-    ,"address"  : "34 th street"
     ,"genre"    : "dance"
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
+    ,"image"    : "person7"
+    ,"imageurl" : "person7url.jpg"
     },
     {
-     "name"     : "Fred Flinstone"
+     "name"     : "Chris K."
+    ,"neighborhood" : "Prospect Heights"
     ,"phone"    : ""
-    ,"address"  : "34 th street"
     ,"genre"    : "dance"
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
+    ,"image"    : "person8"
+    ,"imageurl" : "person8url.jpg"
     },
     {
-     "name"     : "Fred Flinstone"
+     "name"     : "Daniel V."
+    ,"neighborhood" : "Gowanus Heights"
     ,"phone"    : ""
-    ,"address"  : "34 th street"
     ,"genre"    : "dance"
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
-    },
-    {
-     "name"     : "Fred Flinstone"
-    ,"phone"    : ""
-    ,"address"  : "34 th street"
-    ,"genre"    : "dance"
-    ,"instrument" : "drums"
-    ,"rank"     : 5
-    ,"reviews"  : "this is his review"  
-    },
-    {
-     "name"     : "Fred Flinstone"
-    ,"phone"    : ""
-    ,"address"  : "34 th street"
-    ,"genre"    : "dance"
-    ,"instrument" : "drums"
-    ,"rank"     : 5
-    ,"reviews"  : "this is his review"  
-    },
-    {
-     "name"     : "Fred Flinstone"
-    ,"phone"    : ""
-    ,"address"  : "34 th street"
-    ,"genre"    : "dance"
-    ,"instrument" : "drums"
-    ,"rank"     : 5
-    ,"reviews"  : "this is his review"  
+    ,"image"    : "person9"
+    ,"imageurl" : "person9url.jpg"
     }]
 }

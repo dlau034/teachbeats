@@ -7,7 +7,7 @@
 
 
 body {
-	font-family: 'Arvo', serif;
+	font-family: 'ubuntu', serif;
 	background-image: url("../images/light_bg.png");
 }
 
@@ -98,7 +98,7 @@ a:hover {
 .btn-orange {
 	background: orange;
 	border-radius: 0px;
-	font-family: arvo;
+	font-family: ubuntu;
 	border: none;
 }
 
@@ -117,6 +117,8 @@ a:hover {
 	/*background-color: red;*/
 	width: 143px;
 	background-position: center;
+	background-repeat: no-repeat;
+}
 }
 #Sign_in {
 	border-radius: 0px;
@@ -124,4 +126,13 @@ a:hover {
 }
 #Sign_in form {
 	margin-bottom: 0;
+}
+.navbar-fixed-top .navbar-inner {
+	background: none;
+	background-color: #3A3A3A;
+}
+h1.center {
+	font-weight: 400;
+	font-family: bangers;
+	letter-spacing: 3px;
 }
