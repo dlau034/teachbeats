@@ -1,0 +1,83 @@
+{"artists": [
+    {
+     "name"     : "Johnny Bravo"
+    ,"phone"    : "348 132 1312"
+    ,"address"  : ""
+    ,"genre"    : "rock"
+    ,"instrument" : "guitar"
+    ,"rank"     : 4
+    ,"reviews"  : "one review"  
+    },
+    {
+     "name"     : "Fred Flinstone"
+    ,"phone"    : ""
+    ,"address"  : "34 th street"
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    },
+    {
+     "name"     : "Fred Flinstone"
+    ,"phone"    : ""
+    ,"address"  : "34 th street"
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    },
+    {
+     "name"     : "Fred Flinstone"
+    ,"phone"    : ""
+    ,"address"  : "34 th street"
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    },
+    {
+     "name"     : "Fred Flinstone"
+    ,"phone"    : ""
+    ,"address"  : "34 th street"
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    },
+    {
+     "name"     : "Fred Flinstone"
+    ,"phone"    : ""
+    ,"address"  : "34 th street"
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    },
+    {
+     "name"     : "Fred Flinstone"
+    ,"phone"    : ""
+    ,"address"  : "34 th street"
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    },
+    {
+     "name"     : "Fred Flinstone"
+    ,"phone"    : ""
+    ,"address"  : "34 th street"
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    },
+    {
+     "name"     : "Fred Flinstone"
+    ,"phone"    : ""
+    ,"address"  : "34 th street"
+    ,"genre"    : "dance"
+    ,"instrument" : "drums"
+    ,"rank"     : 5
+    ,"reviews"  : "this is his review"  
+    }]
+}
