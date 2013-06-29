@@ -4,9 +4,6 @@
 
 /* --------------------------------------------- */
 
-.main-image {
-	/*background-image: url('../images/home_img1.jpg');*/
-}
 .carousel-caption {
 	bottom:15em;
 	width:60%;
@@ -15,23 +12,33 @@
 p.blurb {
 	font-size:150%;
 	line-height:120%;
+	font-family: ubuntu;	
 }
 #hero_img {
-	/*width: 100%;*/
 	height: 650px;
 	background: url("../images/main_home.jpg");
-	/*background-size: 100%;*/
 	background-repeat: no-repeat;
 	background-color: white;
 }
 .center button.btn-orange {
 	margin-top: 1em;
+	margin-left: 0.5em;
+	margin-right: 0.5em;	
+	font-family: ubuntu;
+	font-weight: 700;
 }
 .featured-item p {
-	font-family: open sans;
-	padding: 0em 1em 0em 1em;
+	font-family: ubuntu;
+	font-size: 1em;
+	line-height: 1.3em;
+	font-weight: 100;
+	margin-top: 0.5em;
 }
 .featured-item h3 {
-	padding: 0.2em 0.5em 0em 0.5em;
-	text-align: center;
+	/*padding: 0.2em 0.5em 0em 0.5em;*/
+	text-align: left;
+}
+.content span {
+	font-weight: 700;
+	margin-right: 5px;
 }
