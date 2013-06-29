@@ -1,0 +1,127 @@
+
+/* Global Stylesheet */
+
+
+/* --------------------------------------------- */
+
+
+
+body {
+	font-family: 'Arvo', serif;
+	background-image: url("../images/light_bg.png");
+}
+
+/*Menu*/
+form {
+	padding:1em;
+}
+.container {
+	//margin-top: 1em;
+}
+.navbar-fixed-top {
+	//top:4em;
+}
+
+.featured-item {
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	background-color: white;
+}
+
+.content {
+	padding: 0.6em 1em 1em 1em;
+}
+
+
+h1 {
+	font-size:60px;
+	line-height:100%;
+}
+
+h3 {
+	line-height: 100%;
+	font-weight: normal;
+}
+
+.container {
+	z-index: 1;
+}
+
+div.overlap {
+	z-index:400;
+	position: relative;
+	top:-5em;
+}
+
+img {
+	max-width:100%;
+}
+
+a {	
+	color: #FCB514;
+}
+a:hover {
+	text-decoration: none;
+	color: #888;
+}
+
+
+/*Functional Styles*/
+.right {
+	float: right !important;
+	text-align: right !important;
+}
+
+.left {
+	float: left;
+	text-align: left;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+	/*display: block;*/
+}
+
+.text-shadow {
+	-moz-text-shadow: 3px 3px 7px black;
+	-box-text-shadow: 3px 3px 7px black;
+	text-shadow: 3px 3px 7px black;
+}
+
+.white {
+	color: white;
+}
+
+/*Large Orange Button*/
+.btn-orange {
+	background: orange;
+	border-radius: 0px;
+	font-family: arvo;
+	border: none;
+}
+
+.btn-huge {
+  padding: 16px 20px;
+  font-size: 20.5px;
+}
+
+.margin-gap {
+	margin: 1em;
+}
+
+#brand_logo {
+	background-image: url("../images/logo.png");
+	text-indent: -999px;
+	/*background-color: red;*/
+	width: 143px;
+	background-position: center;
+}
+#Sign_in {
+	border-radius: 0px;
+	background-color: #f5f5f5;
+}
+#Sign_in form {
+	margin-bottom: 0;
+}

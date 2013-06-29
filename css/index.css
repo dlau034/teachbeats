@@ -1,0 +1,37 @@
+
+/* Homepage Stylesheet */
+
+
+/* --------------------------------------------- */
+
+.main-image {
+	/*background-image: url('../images/home_img1.jpg');*/
+}
+.carousel-caption {
+	bottom:15em;
+	width:60%;
+	background: none;
+}
+p.blurb {
+	font-size:150%;
+	line-height:120%;
+}
+#hero_img {
+	/*width: 100%;*/
+	height: 650px;
+	background: url("../images/main_home.jpg");
+	/*background-size: 100%;*/
+	background-repeat: no-repeat;
+	background-color: white;
+}
+.center button.btn-orange {
+	margin-top: 1em;
+}
+.featured-item p {
+	font-family: open sans;
+	padding: 0em 1em 0em 1em;
+}
+.featured-item h3 {
+	padding: 0.2em 0.5em 0em 0.5em;
+	text-align: center;
+}

@@ -1,0 +1,25 @@
+span {
+	margin: .2em;
+}
+span.capacity {
+	font-weight: bold;
+}
+
+span.capacity, span.byline {
+	display: block;
+}
+span.byline {
+	color: gray;
+}
+.featured-item {
+	margin-bottom:2em;
+	background-color: white;
+}
+#box {
+	margin-top: 5em;
+}
+.detail_text {
+	background-color: white;
+}
+
+
