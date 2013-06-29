@@ -187,7 +187,7 @@ p.blurb {
 #hero_img{
 	overflow: hidden;
 	max-height: 650px;
-	margin-bottom: -2.5em;
+	margin-bottom: 2em;
 	margin-top: -60px; /*boddy padding */
 }
 #hero_img img{

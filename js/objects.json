@@ -7,7 +7,7 @@
     ,"instrument" : "guitar, harmonica"
     ,"rank"     : 4
     ,"reviews"  : "one review" 
-    ,"image"    : "person1"
+    ,"image"    : "images/person0.jpg"
     ,"imageurl" : ["images/person1_1.jpg" 
                   ,"images/person1_2.jpg" 
                   ,"images/person1_3.png" 
@@ -28,7 +28,7 @@
     ,"instrument" : "keyboard, synthesizer"
     ,"rank"     : 5
     ,"reviews"  : "two reviews"  
-    ,"image"    : "person2"
+    ,"image"    : "images/person2.jpg"
     ,"imageurl" : ["images/person1_2.jpg" 
                   ,"images/person1_1.jpg" 
                   ,"images/person1_3.png" 
@@ -50,10 +50,10 @@
     ,"instrument" : "cello, violin"
     ,"rank"     : 5
     ,"reviews"  : "four reviews"  
-    ,"image"    : "person3"
+    ,"image"    : "images/person3.jpg"
     ,"imageurl" : ["images/person1_3.png" 
                   ,"images/person1_2.jpg" 
-                  ,"images/person1_1.jpg" 
+                  ,"images/person1_1.png" 
                   ,"images/person1_4.jpg" 
                   ,"images/person1_5.png" 
                   ,"images/person1_6.jpg" 
@@ -72,7 +72,7 @@
     ,"instrument" : "drums, cymbals"
     ,"rank"     : 5
     ,"reviews"  : "three reviews"  
-    ,"image"    : "person4"
+    ,"image"    : "images/person4.jpg"
     ,"imageurl" : ["images/person1_4.jpg" 
                   ,"images/person1_2.jpg" 
                   ,"images/person1_3.png" 
@@ -93,7 +93,7 @@
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
-    ,"image"    : "person5"
+    ,"image"    : "images/person5.jpg"
     ,"imageurl" : ["images/person1_5.png" 
                   ,"images/person1_2.jpg" 
                   ,"images/person1_3.png" 
@@ -114,7 +114,7 @@
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
-    ,"image"    : "person6"
+    ,"image"    : "images/person6.jpg"
     ,"imageurl" : ["images/person1_6.jpg" 
                   ,"images/person1_2.jpg" 
                   ,"images/person1_3.png" 
@@ -136,7 +136,7 @@
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
-    ,"image"    : "person7"
+    ,"image"    : "images/person7.jpg"
     ,"imageurl" : ["images/person1_7.png" 
                   ,"images/person1_2.jpg" 
                   ,"images/person1_3.png" 
@@ -158,7 +158,7 @@
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
-    ,"image"    : "person8"
+    ,"image"    : "images/person8.jpg"
     ,"imageurl" : ["images/person1_8.png" 
                   ,"images/person1_2.jpg" 
                   ,"images/person1_3.png" 
@@ -180,7 +180,7 @@
     ,"instrument" : "drums"
     ,"rank"     : 5
     ,"reviews"  : "this is his review"  
-    ,"image"    : "person9"
+    ,"image"    : "images/person9.jpg"
     ,"imageurl" : ["images/person1_5.png" 
                   ,"images/person1_1.jpg" 
                   ,"images/person1_3.png" 

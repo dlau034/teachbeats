@@ -80,9 +80,13 @@
       elm = $(elm[1]);
 
       if(elm.parent().children().length === self.fixedArtists.length){
-        elm.parent().masonry({            
+        
+        var timer = window.setTimeout(function(){
+          elm.parent().masonry({            
               itemSelector : '.featured-item'
           });
+        },500);
+   
       }
     }
 
